@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+/>
+<link rel="stylesheet" href="style.css" />
+<link rel="icon" href="favicon.ico" />
+
+<title>Weather Dashboard</title>
+    
+</head>
+<body>
+    <body>
+        <header
+          class="container-fluid text-center text-white bg-dark p-2 weather-header"
+        >
+          <h1>Weather Dashboard</h1>
+        </header>
+        <div class="container-fluid" style="max-width: 1400px">
+            <div class="row">
+              <aside class="col-lg-3 pb-3">
+               
+
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label"> <h2 id="form-heading" class="mt-1 h3 form-label">
+                        Search for a City:
+                      </h2></label>
+                      <input type="text" class="form-control" id="city" aria-describedby="city">
+                     
+                    </div>
+                    <button type="submit" id="search" class="btn btn-primary">Submit</button>
+                  </form>
+              </aside>
+              <div class="col-lg-3 pb-3" id="weatherbug"> 
+
+              </div>
+            </div>
+       
+        </div>
+    <script src="./script.js"></script>
+
+
+</body>
+</html>
